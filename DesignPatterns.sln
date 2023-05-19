@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Model", "WCF.Model\WCF.Model.csproj", "{9C5F4A5C-3645-43A1-B3EB-020BE36BE2C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF", "WCF", "{47090D5A-64C6-4BA3-80C9-09359C461315}"
+	ProjectSection(SolutionItems) = preProject
+		WCF.txt = WCF.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Client", "WCF.Client\WCF.Client.csproj", "{47784A83-65C8-4D95-AAB6-FA10F5B9453A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C7196AA-6C7A-4AA9-9175-93C2C8351226} = {6C7196AA-6C7A-4AA9-9175-93C2C8351226}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Host", "WCF.Host\WCF.Host.csproj", "{6C7196AA-6C7A-4AA9-9175-93C2C8351226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Service", "WCF.Service\WCF.Service.csproj", "{6FA7C268-D86C-4ED6-9113-667932473899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Service.Tests", "WCF.Service.Tests\WCF.Service.Tests.csproj", "{BDABD85D-EBF6-4884-8237-1977F5C09F93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C5F4A5C-3645-43A1-B3EB-020BE36BE2C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C5F4A5C-3645-43A1-B3EB-020BE36BE2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C5F4A5C-3645-43A1-B3EB-020BE36BE2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C5F4A5C-3645-43A1-B3EB-020BE36BE2C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47784A83-65C8-4D95-AAB6-FA10F5B9453A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47784A83-65C8-4D95-AAB6-FA10F5B9453A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47784A83-65C8-4D95-AAB6-FA10F5B9453A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47784A83-65C8-4D95-AAB6-FA10F5B9453A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C7196AA-6C7A-4AA9-9175-93C2C8351226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7196AA-6C7A-4AA9-9175-93C2C8351226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7196AA-6C7A-4AA9-9175-93C2C8351226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7196AA-6C7A-4AA9-9175-93C2C8351226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA7C268-D86C-4ED6-9113-667932473899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA7C268-D86C-4ED6-9113-667932473899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA7C268-D86C-4ED6-9113-667932473899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA7C268-D86C-4ED6-9113-667932473899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDABD85D-EBF6-4884-8237-1977F5C09F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDABD85D-EBF6-4884-8237-1977F5C09F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDABD85D-EBF6-4884-8237-1977F5C09F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDABD85D-EBF6-4884-8237-1977F5C09F93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09B6A19A-EBE2-4E83-8806-4D8317A2412F}
+	EndGlobalSection
+EndGlobal
